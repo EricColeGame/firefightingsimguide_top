@@ -3,8 +3,8 @@ import { LegalPage } from "@/components/legal-page";
 export default function AboutPage() {
   return (
     <LegalPage title="About">
-      <p>VV Ultimatum Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.</p>
-      <p>The layout, navigation, article cards, and detail format are reproduced from the target VV: ULTIMATUM wiki pages requested for this implementation.</p>
+      <p>Firefighting Sim Wiki is an independent fan-built guide hub covering mission strategies, fire rescue equipment, vehicles, and tactical gameplay knowledge for firefighters and simulation fans alike.</p>
+      <p>Our mission is to provide accurate, easy-to-navigate reference material and cooperative tactics to help players tackle every emergency scenario efficiently.</p>
     </LegalPage>
   );
 }

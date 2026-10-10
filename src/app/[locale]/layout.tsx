@@ -12,7 +12,7 @@ import { routing } from "@/i18n/routing";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://firefightingsimguide.top";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -24,10 +24,26 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
-    title: { default: "VV: ULTIMATUM Wiki", template: "%s" },
-    description: "Complete VV: ULTIMATUM fan wiki with codes, bosses, builds, races, guides and progression walkthroughs.",
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    title: { default: "firefighting sim Wiki", template: `%s — ${siteConfig.name}` },
+    description: "Explore Firefighting Sim Wiki with detailed mission guides, firefighter equipment information, rescue strategies, gameplay tips, and everything players need.",
+    openGraph: {
+      type: "website",
+      locale,
+      url: siteUrl,
+      siteName: siteConfig.name,
+      images: [
+        {
+          url: image,
+          width: 1280,
+          height: 720,
+          alt: "firefighting sim Wiki",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: [image],
+    },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
@@ -63,7 +79,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
           <NextIntlClientProvider messages={messages}>
             <JsonLd data={organization} />
             <SiteHeader locale={locale} />
-            {children}
+            <div className="flex-1">{children}</div>
             <SiteFooter locale={locale} />
           </NextIntlClientProvider>
         </ThemeProvider>
