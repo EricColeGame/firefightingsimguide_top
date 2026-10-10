@@ -34,27 +34,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Firefighting Sim Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Master 360-degree size-ups, nozzle flow, and scene assessment before stepping into hazardous interior smoke."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Fastest Leveling & Ranks",
+          "description": "Climb firefighter promotion ranks quickly by completing structural suppression and civilian rescue objectives."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Essential Equipment Guide",
+          "description": "Equip Halligan bars, thermal imaging cameras, and fire axes tailored to specific structural entry tasks."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Tactical Mission Strategies",
+          "description": "Handle complex residential infernos, factory hazards, and victim extrication without risking squad safety."
         }
       ]
     },
@@ -62,237 +62,283 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Tactics",
+        "Truck Operations",
+        "Multiplayer Co-Op",
+        "Full Walkthrough"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Essential tactics, scene size-up, and nozzle techniques for rookie emergency responders.",
+          "href": "/guide/firefighting-sim-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Vehicles",
+          "title": "Fire Trucks Roster",
+          "description": "Explore heavy pumpers, aerial ladder platforms, and rescue apparatus specifications.",
+          "href": "/vehicles/firefighting-sim-trucks"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Mechanics",
+          "title": "Mission Walkthroughs",
+          "description": "Tactical breakdown of residential fires, industrial blazes, and search-and-rescue runs.",
+          "href": "/mechanics/firefighting-sim-missions"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Co-Op",
+          "title": "Multiplayer Operations",
+          "description": "Squad coordination roles, communication protocols, and 4-player co-op dispatch tactics.",
+          "href": "/mechanics/firefighting-sim-multiplayer"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Controls",
+          "title": "Controls & Keybinds",
+          "description": "Complete keyboard, gamepad, driving, and firefighting tool keybinding reference.",
+          "href": "/controls/firefighting-sim-controls"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Platforms",
+          "title": "PC Requirements & Setup",
+          "description": "Hardware benchmarks, GPU settings, and system specs for smooth fluid simulation.",
+          "href": "/platforms/firefighting-sim-pc"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Tactics",
+          "title": "Pro Firefighter Tips",
+          "description": "Advanced ventilation control, flashover prevention, and hydraulic supply management.",
+          "href": "/guide/firefighting-sim-tips"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "Updates",
+          "title": "Ignite Roadmap & DLC",
+          "description": "Track the latest patches, developer announcements, and upcoming content releases.",
+          "href": "/updates/firefighting-sim-ignite-update"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Vehicles",
+          "title": "Aerial Ladder Controls",
+          "description": "Master turntable positioning, outrigger staging, and high-volume basket nozzles.",
+          "href": "/controls/firefighting-sim-ladder-nozzle"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Firefighting Sim?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Firefighting Sim is an authentic tactical emergency simulation that drops players into the boots of a frontline firefighter. Operating individually or as part of a four-player squad, you respond to alarms across sprawling urban maps, connect municipal hydrants, breach locked buildings, and rescue trapped civilians from dynamic structural infernos.",
+        "Powered by physics-driven fire propagation, convective heat transfer, and realistic smoke dynamics, every call requires tactical discipline. Our comprehensive wiki delivers verified vehicle breakdowns, keybind configurations, equipment stats, and step-by-step incident walkthroughs for both rookie responders and seasoned incident commanders."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
-        {
-          "label": "Platform",
-          "value": "Roblox"
-        },
-        {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Tactical Sim"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Squad Size",
+          "value": "1-4 Players"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Engine",
+          "value": "Unreal Engine"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Platforms",
+          "value": "PC / Consoles"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Apparatus",
+          "value": "Licensed Fleet"
+        },
+        {
+          "label": "Physics",
+          "value": "Dynamic Flame"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Firefighting Sim Wiki",
+      "description": "Master emergency incident responses with our comprehensive firefighter guides, equipment databases, apparatus operations, and co-op tactical strategies.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Firefighting Sim Beginner Guide",
+          "description": "This module introduces new players to the basic gameplay loop, firefighting procedures, equipment usage, mission preparation, and survival tips. It helps beginners understand how to respond to emergencies and complete missions efficiently.",
+          "href": "/guide/firefighting-sim-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Conduct a 360-degree size-up around the structure to locate fire seats and smoke conditions."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Connect supply lines from a municipal hydrant to your engine before charging interior attacks."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Force exterior doors with a Halligan bar while controlling ventilation drafts to prevent flashovers."
+            },
+            {
+              "label": "4",
+              "detail": "Sweep thermal gas layers overhead and direct solid streams at fuel bases to knock down flames."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Firefighting Sim Missions Guide",
+          "description": "A mission-focused section covering different emergency scenarios, objectives, locations, and recommended strategies. Players can learn how to handle fires, rescues, and special situations more effectively.",
+          "href": "/mechanics/firefighting-sim-missions",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Rescues",
+              "detail": "Prioritize searching bedrooms and carrying incapacitated victims to triage zones."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Industrial",
+              "detail": "Contain hazardous chemical storage drums and isolate high-voltage breaker panels."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Flashovers",
+              "detail": "Cool superheated ceilings to prevent explosive rollover fires during structural attacks."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
+          "name": "Firefighting Sim Equipment Guide",
+          "description": "This module explains firefighter tools, protective gear, vehicles, and equipment functions available in the game. It helps players choose the right equipment for different fire situations.",
+          "href": "/vehicles/firefighting-sim-trucks",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Attack Hose & Halligan Bar - Essential primary tools for door breaching and interior knockdowns."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Thermal Imaging Camera & Supply Line - Critical for locating hidden wall fires and steady water flow."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Fire Axe & Foam Nozzle - Effective for roof ventilation cuts and suppressing liquid chemical fires."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Dry Chem Extinguisher - Quick response tool for small isolated electrical panels and trash fires."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Firefighting Sim Fire Truck Guide",
+          "description": "A vehicle database covering available fire trucks, their features, roles, and usage scenarios. Players searching for truck information can quickly compare different emergency vehicles.",
+          "href": "/vehicles/firefighting-sim-trucks",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Pumper",
+              "detail": "Core attack rig featuring 1,000-gallon booster tank and multi-line relay pumping capability."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Ladder",
+              "detail": "Turntable aerial platform engineered for roof ventilation cuts and upper-story balcony rescues."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Rescue",
+              "detail": "Heavy utility truck packed with hydraulic extrication spreaders and specialized entry tools."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Firefighting Sim Multiplayer Guide",
+          "description": "This section covers cooperative gameplay, team roles, communication strategies, and multiplayer mission tips. It targets players searching for co-op features and team-based strategies.",
+          "href": "/mechanics/firefighting-sim-multiplayer",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "1",
+              "detail": "Designate dedicated squad roles: Pump Operator, Lead Nozzle, Forcible Entry, and Search & Rescue."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "2",
+              "detail": "Establish hydrant supply connections immediately while the search team forces entry."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "3",
+              "detail": "Maintain radio callouts when breaching interior doors to coordinate water sweeps against backdrafts."
+            },
+            {
+              "label": "4",
+              "detail": "Conduct coordinated room-by-room overhauls to confirm zero trapped occupants remain inside."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Firefighting Sim Controls Guide",
+          "description": "A complete controls reference showing keyboard, controller, driving, firefighting actions, and important gameplay commands. This helps players quickly learn the game's interaction system.",
+          "href": "/controls/firefighting-sim-controls",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "WASD / E",
+              "detail": "Movement and primary interaction for forcing entry doors, victim carrying, and tool pickups."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Shift / C",
+              "detail": "Sprint to hydrants and crouch beneath superheated thermal layers to avoid smoke inhalation."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "F / T",
+              "detail": "Toggle tactical helmet light and switch to Thermal Imaging Camera to detect structural hotspots."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Firefighting Sim Updates Guide",
+          "description": "This module collects official announcements, patches, DLC information, and new content updates. Players can track the latest changes and future improvements from the developers.",
+          "href": "/updates/firefighting-sim-ignite-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Physics optimizations improving volumetric smoke rendering and multi-room flame propagation."
+            },
+            {
+              "label": "DLC Gear",
+              "detail": "New emergency apparatus packs, licensed pumper variants, and custom firefighter turnout gear."
+            },
+            {
+              "label": "Roadmaps",
+              "detail": "Developer updates introducing new industrial complex incident scenarios and weather hazards."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Firefighting Sim System Requirements",
+          "description": "A hardware reference section showing minimum and recommended PC requirements, supported platforms, and performance information. It helps users check whether their setup can run the game smoothly.",
+          "href": "/platforms/firefighting-sim-pc",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Min CPU",
+              "detail": "Intel Core i5-6400 or AMD Ryzen 5 1600 required for baseline real-time physics calculations."
+            },
+            {
+              "label": "Rec GPU",
+              "detail": "NVIDIA GeForce RTX 3060 or AMD Radeon RX 6700 XT for stable 60 FPS in dense particle smoke."
+            },
+            {
+              "label": "NVMe SSD",
+              "detail": "25 GB solid-state drive space strongly recommended to avoid streaming stutters across urban alarms."
             }
           ]
         }
@@ -300,27 +346,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "description": "Quick answers to the most common questions about Firefighting Sim.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Firefighting Sim?",
+          "answer": "Firefighting Sim is a realistic emergency rescue simulation where players suit up as firefighters to tackle dynamic building fires, operate authentic fire trucks, utilize specialized gear, and rescue civilians across solo and cooperative squad missions."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Does Firefighting Sim support cooperative multiplayer?",
+          "answer": "Yes, Firefighting Sim features up to four-player cooperative multiplayer, enabling squad members to coordinate specialized roles like pump operation, nozzle attack, search and rescue, and rooftop ventilation."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What tools are most important for beginners in Firefighting Sim?",
+          "answer": "Every rookie responder should master the Halligan bar for forcible door entry, the attack hose for knockdown suppression, and the Thermal Imaging Camera (TIC) for detecting hidden hotspots inside smoke-filled structures."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Can I play Firefighting Sim on PC and consoles?",
+          "answer": "Yes, Firefighting Sim is available on PC via Steam as well as PlayStation and Xbox console platforms, offering complete keyboard/mouse and gamepad controller support."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How do you prevent flashovers and backdrafts in Firefighting Sim?",
+          "answer": "Keep structural doors controlled before water is charged, sweep superheated gas layers at ceiling levels with water streams, and avoid breaking ventilation windows without an active attack line ready."
         }
       ]
     },
@@ -328,7 +374,7 @@
       "title": "Ready to Master Firefighting Sim?",
       "description": "From tackling initial structure fires to leading complex 4-player cooperative rescue operations, our community wiki has you covered with complete guides.",
       "primary": "Read the Beginner Guide",
-      "secondary": "Play on Steam"
+      "secondary": "Official Website"
     }
   },
   "shared": {
