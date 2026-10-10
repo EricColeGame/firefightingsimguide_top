@@ -1,11 +1,452 @@
 {
+  "site": {
+    "name": "Firefighting Sim Wiki",
+    "shortName": "Firefighting Sim",
+    "tagline": "Guía de Misiones, Equipamiento y Rescate",
+    "description": "Explora Firefighting Sim Wiki con guías detalladas de misiones, información de equipamiento de bomberos, estrategias de rescate y consejos de juego.",
+    "legalNotice": "Wiki no oficial de fans. Creada por jugadores para jugadores."
+  },
   "nav": {
-    "guide": "Guide",
-    "mechanics": "Mechanics",
-    "controls": "Controls",
-    "vehicles": "Vehicles",
-    "platforms": "Platforms",
-    "updates": "Updates",
-    "reviews": "Reviews"
+    "guide": "Guías",
+    "mechanics": "Mecánicas",
+    "controls": "Controles",
+    "vehicles": "Vehículos",
+    "platforms": "Plataformas",
+    "updates": "Actualizaciones",
+    "reviews": "Reseñas"
+  },
+  "home": {
+    "meta": {
+      "title": "Firefighting Sim Wiki — Misiones, Equipamiento y Guías",
+      "description": "Explora Firefighting Sim Wiki con guías detalladas de misiones, información de equipamiento de bomberos, estrategias de rescate y consejos de juego."
+    },
+    "hero": {
+      "eyebrow": "Simulación Realista de Rescate y Bomberos",
+      "title": "Firefighting Sim Wiki",
+      "description": "Firefighting Sim es un juego realista de simulación de emergencias donde los jugadores actúan como bomberos, operan equipamiento profesional, apagan incendios, rescatan civiles y completan misiones cooperativas.",
+      "stats": [
+        "Misiones Tácticas",
+        "Equipo de Rescate",
+        "Vehículos de Bomberos",
+        "Estrategias Co-op"
+      ],
+      "primaryCta": "Guía para Principiantes",
+      "secondaryCta": "Guía de Equipamiento",
+      "tertiaryCta": "Jugar en Steam",
+      "videoLabel": "Medios oficiales"
+    },
+    "updates": {
+      "title": "Últimas Actualizaciones",
+      "browse": "Explorar todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu Trayectoria en Firefighting Sim",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para Principiantes",
+          "description": "Domina la inspección perimetral de 360 grados, el caudal de la manguera y la evaluación del escenario antes de entrar al humo denso."
+        },
+        {
+          "number": "2",
+          "title": "Subida Rápida de Nivel y Rangos",
+          "description": "Asciende en el escalafón de bomberos extinguiendo incendios estructurales y rescatando víctimas con éxito."
+        },
+        {
+          "number": "3",
+          "title": "Equipamiento Esencial",
+          "description": "Equípate con barras Halligan, cámaras térmicas y hachas de bombero adaptadas a cada técnica de entrada forzada."
+        },
+        {
+          "number": "4",
+          "title": "Estrategias de Misiones Tácticas",
+          "description": "Enfrenta incendios residenciales complejos, riesgos industriales y extracción de víctimas sin poner en peligro a tu cuadrilla."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas Populares",
+      "title": "Tendencias Actuales",
+      "quickLinks": [
+        "Tácticas Iniciales",
+        "Operación de Camiones",
+        "Cooperativo Multijugador",
+        "Guía Completa"
+      ],
+      "cards": [
+        {
+          "badge": "Beginner",
+          "title": "Guía para Principiantes",
+          "description": "Tácticas esenciales, evaluación del incendio y técnicas de manguera para bomberos novatos.",
+          "href": "/guide/firefighting-sim-beginner-guide"
+        },
+        {
+          "badge": "Vehicles",
+          "title": "Flota de Camiones de Bomberos",
+          "description": "Explora camiones autobomba pesados, plataformas de escala aérea y vehículos de rescate técnico.",
+          "href": "/vehicles/firefighting-sim-trucks"
+        },
+        {
+          "badge": "Mechanics",
+          "title": "Paso a Paso de Misiones",
+          "description": "Análisis táctico de fuegos residenciales, incendios industriales y operativos de búsqueda y rescate.",
+          "href": "/mechanics/firefighting-sim-missions"
+        },
+        {
+          "badge": "Co-Op",
+          "title": "Operaciones Cooperativas",
+          "description": "Roles de escuadrón, protocolos de radio y tácticas de despacho en cooperación de 4 jugadores.",
+          "href": "/mechanics/firefighting-sim-multiplayer"
+        },
+        {
+          "badge": "Controls",
+          "title": "Controles y Asignación de Teclas",
+          "description": "Referencia completa de controles para teclado, mando, conducción y herramientas de extinción.",
+          "href": "/controls/firefighting-sim-controls"
+        },
+        {
+          "badge": "Platforms",
+          "title": "Requisitos y Configuración de PC",
+          "description": "Benchmarks de hardware, ajustes gráficos y especificaciones para una simulación fluida.",
+          "href": "/platforms/firefighting-sim-pc"
+        },
+        {
+          "badge": "Tactics",
+          "title": "Consejos de Bomberos Pro",
+          "description": "Control avanzado de ventilación, prevención de flashover y gestión de suministro hídrico continuo.",
+          "href": "/guide/firefighting-sim-tips"
+        },
+        {
+          "badge": "Updates",
+          "title": "Ruta Ignite y DLCs",
+          "description": "Sigue los parches más recientes, anuncios de desarrolladores y próximas expansiones de contenido.",
+          "href": "/updates/firefighting-sim-ignite-update"
+        },
+        {
+          "badge": "Vehicles",
+          "title": "Controles de Escala Aérea",
+          "description": "Domina la orientación de la torreta, despliegue de estabilizadores y boquillas de canasta.",
+          "href": "/controls/firefighting-sim-ladder-nozzle"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Firefighting Sim?",
+      "paragraphs": [
+        "Firefighting Sim es una auténtica simulación táctica de emergencias que pone a los jugadores en las botas de un bombero en primera línea. Jugando en solitario o en un escuadrón de 4 jugadores, respondes a alarmas en extensos mapas urbanos, conectas hidrantes municipales, fuerzas puertas y rescatas a civiles atrapados en incendios estructurales dinámicos.",
+        "Con propagación de fuego basada en físicas, transferencia de calor por convección y dinámicas de humo realistas, cada intervención exige disciplina táctica. Nuestra completa wiki ofrece fichas técnicas de vehículos, asignación de teclas, estadísticas de equipo y guías paso a paso para bomberos novatos y comandantes de incidentes."
+      ],
+      "stats": [
+        {
+          "label": "Género",
+          "value": "Simulación Táctica"
+        },
+        {
+          "label": "Escuadrón",
+          "value": "1-4 Jugadores"
+        },
+        {
+          "label": "Motor",
+          "value": "Unreal Engine"
+        },
+        {
+          "label": "Plataformas",
+          "value": "PC / Consolas"
+        },
+        {
+          "label": "Vehículos",
+          "value": "Flota con Licencia"
+        },
+        {
+          "label": "Físicas",
+          "value": "Fuego Dinámico"
+        }
+      ],
+      "cta": "Explorar Todas las Guías"
+    },
+    "explore": {
+      "title": "Explorar Firefighting Sim Wiki",
+      "description": "Domina las intervenciones de emergencia con nuestras guías de bomberos, bases de datos de equipamiento, operación de camiones y tácticas cooperativas.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para Principiantes de Firefighting Sim",
+          "description": "Este módulo introduce a los nuevos jugadores en la rutina básica del juego, procedimientos de extinción, uso de equipamiento, preparación de misiones y supervivencia.",
+          "href": "/guide/firefighting-sim-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Realiza una inspección de 360 grados alrededor de la estructura para ubicar focos de fuego y flujo de humo."
+            },
+            {
+              "label": "2",
+              "detail": "Conecta líneas de suministro desde un hidrante municipal al camión antes de iniciar el ataque interior."
+            },
+            {
+              "label": "3",
+              "detail": "Fuerza puertas exteriores con la barra Halligan controlando las corrientes de aire para evitar el flashover."
+            },
+            {
+              "label": "4",
+              "detail": "Enfría las capas de gas caliente bajo el techo y dirige chorros sólidos a la base del combustible."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía de Misiones de Firefighting Sim",
+          "description": "Sección enfocada en distintos escenarios de emergencia, objetivos, ubicaciones y estrategias recomendadas para incendios y rescates.",
+          "href": "/mechanics/firefighting-sim-missions",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Rescates",
+              "detail": "Prioriza la inspección de dormitorios y traslada a víctimas inconscientes al área de triaje."
+            },
+            {
+              "label": "Industrial",
+              "detail": "Contén bidones de químicos peligrosos y aísla paneles de interruptores de alta tensión."
+            },
+            {
+              "label": "Flashover",
+              "detail": "Enfría techos sobrecalentados para prevenir explosiones de fuego generalizado durante el ataque estructural."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guía de Equipamiento de Firefighting Sim",
+          "description": "Explica herramientas de bombero, trajes de protección, vehículos y funciones del equipamiento disponible en el juego.",
+          "href": "/vehicles/firefighting-sim-trucks",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Manguera de Ataque y Barra Halligan - Herramientas principales indispensables para forzar accesos y sofocar llamas."
+            },
+            {
+              "label": "A",
+              "detail": "Cámara Térmica y Línea de Suministro - Vitales para localizar fuegos ocultos en paredes y asegurar flujo de agua."
+            },
+            {
+              "label": "B",
+              "detail": "Hacha de Bombero y Boquilla de Espuma - Eficaces para cortes de ventilación en techos y sofocar fuegos de líquidos."
+            },
+            {
+              "label": "C",
+              "detail": "Extintor Químico Seco - Herramienta de respuesta rápida para pequeños paneles eléctricos y basuras."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guía de Camiones de Firefighting Sim",
+          "description": "Base de datos de vehículos con camiones de bomberos disponibles, características, roles y escenarios de uso para comparar la flota.",
+          "href": "/vehicles/firefighting-sim-trucks",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Autobomba",
+              "detail": "Vehículo de ataque principal con tanque cisterna de 1.000 galones y bombeo en relé multilínea."
+            },
+            {
+              "label": "Escalera",
+              "detail": "Plataforma aérea giratoria diseñada para ventilación en techos y rescates en balcones elevados."
+            },
+            {
+              "label": "Rescate",
+              "detail": "Camión de utilidad pesada equipado con cizallas de extricación hidráulica y herramientas de entrada."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía Cooperativa de Firefighting Sim",
+          "description": "Cubre la experiencia multijugador cooperativa, roles de equipo, estrategias de comunicación y consejos de misión en cuadrilla.",
+          "href": "/mechanics/firefighting-sim-multiplayer",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Asigna roles dedicados: Operador de bomba, Manguera de ataque, Entrada forzada y Búsqueda y rescate."
+            },
+            {
+              "label": "2",
+              "detail": "Establece conexiones con el hidrante de inmediato mientras el equipo de búsqueda fuerza el acceso."
+            },
+            {
+              "label": "3",
+              "detail": "Mantén comunicación por radio al abrir puertas interiores para coordinar barridos de agua contra backdrafts."
+            },
+            {
+              "label": "4",
+              "detail": "Realiza una revisión habitación por habitación para confirmar que no queden civiles atrapados."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guía de Controles de Firefighting Sim",
+          "description": "Referencia exhaustiva de controles para teclado, mando, conducción y herramientas de bomberos para dominar el juego.",
+          "href": "/controls/firefighting-sim-controls",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "WASD / E",
+              "detail": "Movimiento e interacción principal para forzar puertas, cargar víctimas y recoger herramientas."
+            },
+            {
+              "label": "Shift / C",
+              "detail": "Sprint hacia hidrantes y agacharse bajo capas térmicas de humo para evitar la inhalación."
+            },
+            {
+              "label": "F / T",
+              "detail": "Encender linterna táctica del casco y activar la Cámara Térmica para detectar puntos calientes."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guía de Actualizaciones de Firefighting Sim",
+          "description": "Reúne anuncios oficiales, notas de parches, DLCs y actualizaciones para seguir las mejoras de los desarrolladores.",
+          "href": "/updates/firefighting-sim-ignite-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Parches",
+              "detail": "Optimizaciones de físicas mejorando la renderización de humo volumétrico y la propagación del fuego."
+            },
+            {
+              "label": "Equipamiento DLC",
+              "detail": "Nuevos paquetes de vehículos de emergencia, variantes de autobombas y uniformes de bomberos."
+            },
+            {
+              "label": "Rutas de Desarrollo",
+              "detail": "Actualizaciones de desarrolladores introduciendo nuevos complejos industriales y clima extremo."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Requisitos del Sistema para Firefighting Sim",
+          "description": "Referencia de hardware con requisitos mínimos y recomendados de PC, plataformas compatibles y rendimiento óptimo.",
+          "href": "/platforms/firefighting-sim-pc",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "CPU Mín",
+              "detail": "Intel Core i5-6400 o AMD Ryzen 5 1600 necesario para cálculos de físicas en tiempo real."
+            },
+            {
+              "label": "GPU Rec",
+              "detail": "NVIDIA GeForce RTX 3060 o AMD Radeon RX 6700 XT para 60 FPS estables con humo denso de partículas."
+            },
+            {
+              "label": "SSD NVMe",
+              "detail": "25 GB de espacio en disco sólido altamente recomendado para evitar tirones de carga en la ciudad."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes (FAQ)",
+      "description": "Respuestas rápidas a las dudas más comunes sobre Firefighting Sim.",
+      "items": [
+        {
+          "question": "¿Qué es Firefighting Sim?",
+          "answer": "Firefighting Sim es una simulación realista de emergencias donde los jugadores actúan como bomberos extinguiendo incendios dinámicos en edificios, conduciendo camiones reales y rescatando a civiles."
+        },
+        {
+          "question": "¿Firefighting Sim cuenta con multijugador cooperativo?",
+          "answer": "Sí, Firefighting Sim ofrece multijugador cooperativo de hasta 4 jugadores con roles especializados: control de bomba, manguera de ataque, búsqueda y rescate, y ventilación."
+        },
+        {
+          "question": "¿Qué herramientas son esenciales para principiantes?",
+          "answer": "Todo bombero novato debe dominar la barra Halligan para abrir puertas, la manguera de ataque para abatir llamas y la cámara térmica para hallar focos ocultos."
+        },
+        {
+          "question": "¿Puedo jugar a Firefighting Sim en PC y consolas?",
+          "answer": "Sí, Firefighting Sim está disponible en PC a través de Steam, así como en consolas PlayStation y Xbox con compatibilidad total para teclado/ratón y mando."
+        },
+        {
+          "question": "¿Cómo se previenen flashovers y backdrafts en el juego?",
+          "answer": "Mantén las puertas cerradas antes de cargar la línea de agua, rocía agua sobre los gases calientes del techo y nunca rompas ventanas sin una manguera presurizada lista."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para Dominar Firefighting Sim?",
+      "description": "Desde tu primer incendio estructural hasta liderar complejas misiones cooperativas de rescate para 4 jugadores, nuestra wiki tiene todas las guías.",
+      "primary": "Leer la Guía de Principiantes",
+      "secondary": "Sitio Web Oficial"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegación del Wiki",
+    "activeCodes": "Códigos Activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Tabla de contenidos",
+    "nextSteps": "Próximos Pasos",
+    "needHelp": "¿Necesitas Ayuda?",
+    "relatedReading": "Lecturas Relacionadas",
+    "relatedGuides": "Guías Relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "Firefighting Sim Wiki",
+    "about": "Firefighting Sim Wiki es un portal independiente creado por fans con estrategias de misión, equipamiento de rescate, operación de camiones y conocimientos tácticos para todos los jugadores.",
+    "quickLinks": "Enlaces Rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "© 2026 Firefighting Sim Wiki. Todos los derechos reservados.",
+    "description": "Juego de simulación realista de rescate y bomberos con misiones de emergencia en solitario y cooperativo de 4 jugadores.",
+    "playGame": "Jugar a Firefighting Sim",
+    "officialDiscord": "Discord Oficial",
+    "officialYoutube": "YouTube Oficial",
+    "vvBuilder": "Planificador de Equipo",
+    "beginnerGuide": "Guía para Principiantes",
+    "raceGuides": "Guías de Misión",
+    "bossGuides": "Guías de Equipamiento",
+    "buildGuide": "Operación de Vehículos",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos del Servicio"
+  },
+  "guide": {
+    "overviewTitle": "firefighting sim Guías y Soluciones",
+    "overviewDescription": "Guías completas para principiantes, estrategias de trofeos, listas de logros y tácticas de extinción de incendios para firefighting sim."
+  },
+  "mechanics": {
+    "overviewTitle": "firefighting sim Mecánicas de Juego",
+    "overviewDescription": "Análisis a fondo de las estructuras de misión, rangos de carrera, física del humo, dinámicas cooperativas y crossplay."
+  },
+  "controls": {
+    "overviewTitle": "firefighting sim Controles y Asignación de Teclas",
+    "overviewDescription": "Referencia completa de botones de teclado, ratón y mando, incluyendo manejo de escala aérea y control de presión de agua."
+  },
+  "vehicles": {
+    "overviewTitle": "firefighting sim Vehículos y Camiones",
+    "overviewDescription": "Guía de camiones de bomberos con licencia oficial, autobombas Kenworth, torres de escala, compartimentos de equipo y capacidades."
+  },
+  "platforms": {
+    "overviewTitle": "firefighting sim Plataformas y Rendimiento",
+    "overviewDescription": "Guías de plataformas y ajustes de rendimiento para ediciones de PC Steam, PS5, Xbox Series X|S y Nintendo Switch."
+  },
+  "updates": {
+    "overviewTitle": "firefighting sim Actualizaciones y Hoja de Ruta",
+    "overviewDescription": "Últimas notas de parches, desgloses de expansiones DLC, actualizaciones Ignite, hojas de ruta de temporada y noticias de mantenimiento."
+  },
+  "reviews": {
+    "overviewTitle": "firefighting sim Reseñas y Opiniones de la Comunidad",
+    "overviewDescription": "Reseñas críticas, valoraciones de jugabilidad, análisis de relación calidad-precio y comparativas con los clásicos del género."
   }
 }
