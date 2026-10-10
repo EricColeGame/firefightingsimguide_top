@@ -6,7 +6,15 @@
     "description": "Explore Firefighting Sim Wiki with detailed mission guides, firefighter equipment information, rescue strategies, gameplay tips, and everything players need.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "controls": "Controls",
+    "vehicles": "Vehicles",
+    "platforms": "Platforms",
+    "updates": "Updates",
+    "reviews": "Reviews"
+  },
   "home": {
     "meta": {
       "title": "Firefighting Sim Wiki — Missions, Equipment & Guide",
@@ -412,5 +420,33 @@
     "buildGuide": "Vehicle Operations",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "guide": {
+    "overviewTitle": "firefighting sim Guides & Walkthroughs",
+    "overviewDescription": "Comprehensive beginner walkthroughs, trophy strategies, achievement checklists, and firefighting tactics for firefighting sim."
+  },
+  "mechanics": {
+    "overviewTitle": "firefighting sim Gameplay Mechanics",
+    "overviewDescription": "In-depth breakdown of mission structures, career progression ranks, smoke physics, multiplayer dynamics, and crossplay."
+  },
+  "controls": {
+    "overviewTitle": "firefighting sim Controls & Keybindings",
+    "overviewDescription": "Complete keyboard, mouse, and gamepad button layouts including ladder truck operations and nozzle water pressure controls."
+  },
+  "vehicles": {
+    "overviewTitle": "firefighting sim Apparatus & Vehicles",
+    "overviewDescription": "Guide to licensed fire trucks, Kenworth pumpers, ladder towers, equipment compartments, and operational capabilities."
+  },
+  "platforms": {
+    "overviewTitle": "firefighting sim Platforms & Performance",
+    "overviewDescription": "Platform guides and performance settings for PC Steam, PS5, Xbox Series X|S, and Nintendo Switch editions."
+  },
+  "updates": {
+    "overviewTitle": "firefighting sim Updates & Roadmap",
+    "overviewDescription": "Latest patch notes, DLC expansion breakdowns, Ignite updates, seasonal roadmaps, and maintenance news."
+  },
+  "reviews": {
+    "overviewTitle": "firefighting sim Reviews & Community Impressions",
+    "overviewDescription": "Critical reviews, gameplay evaluations, value assessments, and comparisons to genre-defining simulation games."
   }
 }

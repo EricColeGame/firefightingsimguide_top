@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "controls": "Controls",
+    "vehicles": "Vehicles",
+    "platforms": "Platforms",
+    "updates": "Updates",
+    "reviews": "Reviews"
+  }
+}

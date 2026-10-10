@@ -1,0 +1,145 @@
+export const metadata = {
+  title: "Guide de la lance sur échelle dans Firefighting Sim : Commandes, configuration et tactiques",
+  description: "Maîtrisez la lance sur échelle dans Firefighting Sim grâce à ce guide complet couvrant la configuration de la tourelle, la pression d'eau, les commandes et les tactiques aériennes.",
+  category: "controls",
+  date: "2026-10-10",
+};
+
+Maîtriser la lance sur échelle dans Firefighting Sim est essentiel pour abattre de violents incendies de structures avant qu'ils n'engloutissent des bâtiments de plusieurs étages. Lors d'interventions structurelles d'envergure, les lances à main standard manquent de portée, de débit et de hauteur nécessaires pour lutter contre les feux de toiture incontrôlés et les incendies d'entrepôts commerciaux. Qu'il s'agisse de gérer l'effondrement du toit d'un entrepôt industriel ou des incendies d'immeubles résidentiels, apprendre à manier la lance sur échelle transforme des interventions périlleuses en opérations sécurisées.
+
+Faire fonctionner un canon à eau aérien nécessite de comprendre le positionnement du camion, la stabilisation par stabilisateurs, l'hydraulique des conduites d'alimentation et la mécanique de contrôle de la tourelle. Ce guide détaille les commandes fondamentales, les configurations d'alimentation, le déploiement tactique des lances grande puissance et les étapes de dépannage nécessaires pour surmonter n'importe quel scénario de simulation.
+
+---
+
+## Comprendre les bras élévateurs articulés et les canons sur nacelle
+
+Dans les simulations d'incendie modernes telles que [Firefighting Simulator - The Squad on Steam](https://store.steampowered.com/app/420560/Firefighting_Simulator__The_Squad/), les engins aériens fournissent des jets grande puissance surélevés qui délivrent d'immenses débits en gallons par minute (GPM). L'engin aérien représente un pont stratégique entre les manœuvres d'attaque au fourgon et l'extinction défensive. Au lieu d'envoyer des membres de l'équipe dans des combles fragilisés ou sous des charpentes menaçant de s'effondrer, un jet surélevé neutralise les foyers thermiques de haute intensité depuis le haut.
+
+Lors du déploiement de la lance sur échelle dans Firefighting Sim, votre objectif principal est de projeter de lourds débits d'eau sur des étages supérieurs inaccessibles. Les dispositifs aériens disposent d'ajutages spécialisés, généralement des buses à jet plein (smooth bore) ou des têtes automatiques à jet diffusé, montés directement à l'extrémité de l'échelle aérienne ou à l'intérieur d'une nacelle de sauvetage. Les configurations à jet plein offrent une pénétration thermique profonde et une longue portée, tandis que les formes de jet diffusé créent d'immenses écrans de refroidissement et des rideaux de brouillard d'eau.
+
+Comprendre les contraintes opérationnelles évite le renversement du véhicule et les chutes de pression. Le tableau ci-dessous résume les paramètres clés régissant l'utilisation des lances sur échelle :
+
+| Spécification / Paramètre | Référence typique en simulation | Objectif tactique |
+| :--- | :--- | :--- |
+| **Angle d'élévation maximal** | 70° à 75° | Atteindre les toits élevés, les combles et les balcons à étages |
+| **Angle de dépression** | -5° à -10° | Diriger les jets puissants vers le bas dans les cours intérieures |
+| **Débit (estimé)** | 750 à 1 500 GPM | Étouffer les feux d'hydrocarbures industriels et les incendies de bois massifs |
+| **Modes de jet** | Jet droit / Jet diffusé large | Droit : pénétration profonde ; Diffusé : écran thermique |
+| **Largeur des stabilisateurs** | 16 à 18 pieds entièrement déployés | Empêche le basculement du châssis sous le couple de recul de l'eau |
+| **Rotation de la tourelle** | 360° continue ou restreinte | Balayer plusieurs faces du feu sans déplacer l'engin |
+
+---
+
+## Commandes principales et configuration de l'échelle pivotante
+
+Positionner correctement l'engin fait toute la différence entre une attaque massive de toiture réussie et des efforts d'extinction gaspillés. La conduite d'un engin aérien requiert de larges rayons de braquage et une distance de recul suffisante. Une fois garé hors de la zone d'effondrement — généralement entre 30 et 50 pieds de la structure en flammes —, vous devez serrer le frein de stationnement et enclencher la prise de force (PTO) pour alimenter l'hydraulique de l'échelle.
+
+Maîtriser les commandes du pupitre du véhicule garantit que la lance sur échelle s'aligne directement avec les ouvertures de toiture ou les brèches de ventilation. Vous ne pouvez pas manipuler le bras de la tourelle tant que les stabilisateurs (vérins) ne sont pas entièrement abaissés sur une surface solide. Une mise en place sur un terrain accidenté ou de l'herbe peut déclencher des sécurités d'inclinaison, bloquant les mouvements de l'échelle jusqu'à une remise à niveau.
+
+```
+Flux de configuration du véhicule :
+Stationner à distance de sécurité -> Serrer le frein de stationnement & PTO -> Déployer les stabilisateurs -> Raccorder l'alimentation/relais -> Monter sur la tourelle / pupitre de commande
+```
+
+Le schéma de commandes ci-dessous détaille les entrées standard sur toutes les plateformes pour caler, manœuvrer et faire fonctionner le canon aérien :
+
+| Action / Commande | Clavier et souris (par défaut) | Manette (Xbox / PlayStation) | Description fonctionnelle |
+| :--- | :--- | :--- | :--- |
+| **Activer le mode échelle** | `F` / Touche d'interaction au pupitre | `X` / `Carré` à la console arrière | Transfère la puissance du moteur vers la pompe hydraulique aérienne |
+| **Déployer les stabilisateurs** | Maintenir `E` près du panneau | Maintenir `A` / `Croix` au panneau | Déploie les vérins de soutien pour mettre à niveau le châssis |
+| **Élever / Abaisser le bras** | `W` / `S` | Stick gauche (Haut / Bas) | Ajuste l'angle d'inclinaison verticale de l'échelle |
+| **Pivoter la tourelle** | `A` / `D` | Stick gauche (Gauche / Droite) | Fait pivoter la tourelle horizontalement à 360 degrés |
+| **Déployer / Rétracter le bras**| `R` / `F` | Stick droit (Haut / Bas) | Déploie ou rétracte les plans télescopiques de l'échelle |
+| **Viser avec le canon** | Visée souris | Stick droit (Vue libre) | Oriente la buse de la lance vers le foyer de l'incendie |
+| **Activer/Couper le jet d'eau** | Clic gauche (LMB) | Gâchette droite (RT / R2) | Ouvre/ferme la vanne de refoulement aérienne |
+| **Changer le mode de jet** | `Q` / Clic molette | `Y` / `Triangle` | Alterne entre jet droit direct et large jet diffusé de protection |
+
+---
+
+## Mécanique d'alimentation en eau : alimenter le canon aérien
+
+Une colonne d'alimentation sur échelle ou un canon sur nacelle consomme l'eau à une vitesse fulgurante. Vous ne pouvez pas faire fonctionner un jet grande puissance surélevé sur la seule réserve d'eau embarquée pendant plus de quelques instants. Sans une pression de ligne adéquate, l'utilisation de la lance sur échelle produit une pulvérisation trop faible incapable d'abattre les points chauds structurels.
+
+L'établissement d'une chaîne de pompage en relais robuste est crucial. Une ligne d'alimentation doit relier un poteau d'incendie municipal sous pression à un fourgon-pompe, ou directement aux orifices d'aspiration et d'alimentation de l'engin aérien. Dans les déploiements tactiques multi-unités standards, un fourgon se raccorde au poteau d'incendie, augmente la pression de refoulement et alimente l'engin aérien via des tuyaux de grand diamètre (LDH) connectés à ses admissions arrière ou sur division.
+
+La liste de contrôle suivante encadre l'intégration de l'alimentation en eau pendant les sessions solo ou multijoueur :
+
+| Étape | Action requise | Contrôles critiques |
+| :--- | :--- | :--- |
+| **1. Raccordement au poteau** | Établir une ligne d'alimentation de 4 ou 5 pouces du poteau vers l'admission. | Vérifier que la vanne du poteau d'incendie est entièrement ouverte à la clé. |
+| **2. Relais par fourgon-pompe** | Raccorder le refoulement du fourgon à l'admission directe du camion-échelle. | S'assurer que le régime de pompage du fourgon est monté au niveau de service. |
+| **3. Ouverture des vannes d'engin** | Ouvrir la vanne d'admission à la base du camion-échelle. | Inspecter le manomètre du camion pour confirmer que la pression d'admission dépasse 100 PSI. |
+| **4. Ouverture du refoulement aérien** | Ouvrir la vanne de la colonne d'eau au pupitre ou au panneau de pompage. | Confirmer que l'eau circule dans la tuyauterie télescopique interne. |
+| **5. Projection à la lance** | Actionner la gâchette depuis la nacelle ou la console au sol. | Ajuster le jet pour contrer les courants thermiques ascendants et les flammes. |
+
+Les retours de la communauté soulignent que l'oubli de l'ouverture de la vanne d'admission d'alimentation avant de grimper sur la tourelle est la cause la plus fréquente du problème « aucun débit d'eau ». Surveillez toujours les cadrans de pression de l'engin avant d'articuler le bras.
+
+---
+
+## Applications tactiques pour les feux d'étages et industriels
+
+Les jets surélevés remplissent des rôles tactiques bien précis. Envoyer de l'eau sans discernement à travers les fenêtres résidentielles peut pousser la chaleur et de la vapeur surchauffée directement dans les pièces non brûlées, mettant potentiellement en danger des victimes piégées ou des équipes engagées en attaque intérieure. La coordination entre les opérateurs de l'échelle à l'extérieur et les porte-lances à l'intérieur est primordiale.
+
+Lors d'une lutte extérieure à haut risque, la lance sur échelle permet à votre équipe d'exécuter de lourdes attaques de choc (blitz attacks) depuis une distance de sécurité. Les lances de grande puissance excellent dans le confinement défensif, la pénétration par la toiture et la protection des bâtiments adjacents exposés.
+
+```
+Tactiques d'angle de jet grande puissance :
+Angle prononcé (60°-75°)   --> Arrosage des charpentes de toit, combles embrasés, attaques directes par exutoires de toiture
+Angle modéré (30°-45°)     --> Ruissellement sur façades extérieures, atteinte des fenêtres d'étages, travées industrielles
+Angle faible (0°-15°)      --> Déviation par les plafonds, percées par rideaux métalliques d'entrepôts commerciaux
+```
+
+Adaptez vos tactiques au scénario d'incendie structurel en suivant cette matrice opérationnelle :
+
+| Scénario d'incendie | Objectif principal | Mode de jet | Point d'impact optimal |
+| :--- | :--- | :--- | :--- |
+| **Effondrement de toiture commerciale** | Arroser les fermes en bois lourd et l'acier de structure | Jet droit | Pénétration profonde dans les brèches structurelles ouvertes |
+| **Incendie au dernier étage d'immeuble** | Casser l'embrasement généralisé (flashover) avant l'engagement intérieur | Jet droit | Rebondir sur le plafond intérieur pour arroser les sols de la pièce |
+| **Bâtiments adjacents exposés** | Empêcher l'inflammation par rayonnement thermique des structures voisines | Jet diffusé étroit/large | Arroser le bardage extérieur et les sous-pentes du bâtiment menacé |
+| **Feu de façade de galerie marchande** | Éteindre la propagation cachée dans les faux bandeaux de toiture | Jet droit | Jonctions derrière les fausses façades et puits de ventilation |
+| **Parc de stockage chimique** | Refroidissement rapide des réservoirs de carburant et cuves | Jet diffusé large | Parois extérieures des réservoirs pour le refroidissement de protection |
+
+---
+
+## Erreurs courantes et dépannage des opérations aériennes
+
+L'utilisation d'une plateforme aérienne exige une bonne perception de l'espace et le respect rigoureux des dépendances techniques. Les joueurs rencontrent souvent des difficultés allant de commandes qui ne répondent pas à des jets d'eau inefficaces.
+
+Une erreur fréquente observée dans les parties multijoueur se produit lorsque des équipiers tentent d'actionner la lance sur échelle sans avoir préalablement stabilisé le châssis avec les vérins. Si les stabilisateurs ne sont pas déployés, les systèmes de sécurité du jeu bloquent la tourelle pour empêcher l'engin de basculer. De même, se garer trop près de câbles électriques ou de la cime des arbres peut déclencher des collisions invisibles bloquant le déploiement de l'échelle.
+
+Utilisez ce guide de dépannage pour résoudre vos problèmes opérationnels sur le terrain :
+
+| Problème rencontré | Cause probable | Procédure corrective |
+| :--- | :--- | :--- |
+| **Commandes du pupitre inactives** | Prise de force (PTO) désengagée ou stabilisateurs non déployés | Serrer le frein de parc, enclencher la PTO et déployer totalement les deux stabilisateurs. |
+| **La lance crache de l'air / Pas d'eau** | Vanne de la colonne d'eau fermée ou rupture d'alimentation | Vérifier le tuyau d'alimentation, s'assurer que le poteau est ouvert et ouvrir la vanne d'admission. |
+| **Le jet n'atteint pas la cible** | Pression de pompe insuffisante ou jet réglé en diffusion large | Basculer en jet droit et s'assurer que la pression du fourgon en relais est au maximum. |
+| **Le bras heurte des obstacles invisibles**| Câbles électriques surplombants, arbres ou corniches | Rétracter le bras, pivoter à distance de l'angle du bâtiment et repositionner l'engin. |
+| **L'eau repousse le feu vers l'équipe** | Jet extérieur puissant s'opposant à l'attaque intérieure | Coordonner par radio ; couper le jet extérieur avant que les équipes intérieures ne progressent. |
+
+---
+
+## Conseils de pro pour une efficacité maximale
+
+Pour maximiser votre efficacité aérienne lors des interventions complexes, gardez ces principes tactiques à l'esprit :
+
+- **Utilisez la déviation par le plafond :** Lorsque vous projetez de l'eau à travers les fenêtres d'étages, visez le plafond de la pièce plutôt que le centre de la fenêtre. Le jet droit heurte le plafond solide et se fragmente en une pluie dense de gouttelettes qui noie toute la surface de la pièce sans détruire les cloisons intérieures.
+- **Positionnez-vous face au vent (au vent du sinistre) :** Placez toujours votre camion-échelle en amont du panache thermique par rapport au vent. Les épaisses fumées noires et les nuages de vapeur aveuglent votre visée et vous empêchent d'évaluer la progression de l'extinction.
+- **Évitez de surcharger les charpentes légères :** Dès que les flammes passent d'un jaune/orange vif à une vapeur blanche, réduisez le débit d'eau. Continuer à déverser des tonnes d'eau sur des charpentes légères en bois peut provoquer un effondrement structurel prématuré sous le poids excessif de l'eau accumulée.
+- **Coordination du pompage en relais :** Dans les sessions coopératives en ligne, désignez un joueur comme machiniste/opérateur de pompe tandis qu'un autre gère la lance sur la plateforme. Cette répartition des rôles permet des ajustements de pression instantanés lors du passage d'un rideau de protection diffusé à un jet droit puissant.
+
+---
+
+## Foire aux questions
+
+### Comment activer le débit d'eau vers la lance sur échelle dans Firefighting Sim ?
+Pour activer le débit d'eau, assurez-vous que le camion-échelle est stationné avec ses stabilisateurs déployés et qu'il est raccordé par une ligne d'alimentation à une source d'eau sous pression (comme un fourgon-pompe ou un poteau d'incendie). Ouvrez la vanne d'admission de l'engin, accédez au poste de commande de la tourelle ou de la nacelle, pointez la lance vers le sinistre et maintenez la commande de tir principale (clic gauche sur PC ou gâchette droite sur console).
+
+### Pourquoi mon jet d'eau aérien a-t-il une portée limitée et une faible pression ?
+Une faible pression de jet indique généralement que l'engin puise uniquement dans sa réserve d'eau embarquée plutôt que sur une ligne d'alimentation continue reliée à un poteau d'incendie. Raccordez un tuyau d'alimentation de grand diamètre depuis un fourgon en relais ou directement depuis une bouche d'incendie jusqu'à l'admission de l'échelle afin de maintenir une portée optimale sans perte de pression.
+
+### Puis-je manœuvrer le canon de l'échelle pendant qu'un autre joueur monte aux échelons ?
+Oui, dans les modes de simulation multijoueur, un sapeur-pompier peut grimper aux échelons de l'échelle pour ventiler une toiture ou effectuer des reconnaissances pendant qu'un opérateur contrôle le bras ou la lance de la nacelle. Cependant, activer le jet puissant alors que des coéquipiers se trouvent directement devant la lance peut les désorienter et obscurcir totalement leur visibilité.
+
+### Quelle est la différence entre les modes jet droit et jet diffusé sur le canon de l'échelle ?
+Le jet droit concentre l'eau en une colonne compacte à haute vélocité conçue pour la longue portée, la pénétration des toitures et l'attaque des foyers profonds au cœur des structures. Le jet diffusé disperse l'eau en un large cône de fines gouttelettes, idéal pour protéger les intervenants du rayonnement thermique, refroidir les façades exposées adjacentes ou étouffer des feux de surface étendus sur de larges toitures.
